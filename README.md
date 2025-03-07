@@ -1,23 +1,26 @@
-Resume Recommendation System with AI Chatbot
+AI-Powered Candidate Matching System
 
-This project is a Resume Recommendation System powered by an AI chatbot that helps generate relevant resumes based on specific requirements. The model is trained on a dataset of resumes, and the chatbot responds to queries by providing the most suitable resumes for a given role and experience level.
+🚀 Project Overview
 
-Project Overview
+This project is an AI-driven candidate matching system that filters resumes based on experience, skills, and a calculated match score. The system uses LangChain, Google Gemini AI, and Python to intelligently suggest the best candidate based on user queries.
 
-The system uses machine learning and natural language processing (NLP) techniques to train a model on a large set of resumes. Once trained, the AI chatbot can take input from the user, such as job titles (e.g., "Python Developer") and required experience levels, and provide a relevant resume from the dataset.
+🔥 Features
 
-Key Features:
-Resume Dataset: The dataset consists of resumes across various roles like Python Developer, Data Scientist, etc.
-AI Chatbot: The chatbot is designed to take job-related queries from the user (e.g., job title, experience, skills required).
-Resume Generation: Based on user input, the chatbot will provide a resume that matches the role and experience level specified.
-Dataset
+Smart Resume Filtering: Automatically filters candidates with a match score above a certain threshold.
 
-The model has been trained on a dataset consisting of resumes from various industries and roles. The data includes information such as:
+AI-Powered Candidate Recommendation: Uses Google Gemini AI to suggest the most suitable candidate.
 
-Job Title
-Skills
-Experience Level
-Educational Qualifications
-Career Objective
-Contact Information (for realistic representation)
-You can upload your own dataset or use the default provided to further train and test the model.
+Dynamic Query Processing: Users can input experience, skills, and other criteria to get the best match.
+
+Structured Output: Displays candidate details in a clear, readable format.
+
+🛠 Tech Stack
+
+Python (Data Processing)
+
+Pandas (Data Filtering & Analysis)
+
+LangChain (AI Model Integration)
+
+Google Gemini AI (AI-Powered Query Processing)
+
